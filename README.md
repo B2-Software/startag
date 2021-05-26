@@ -4,7 +4,7 @@
 
 # Padrões de código
 
-**PADRÕES GIT:**
+**EXEMPLOS PADRÕES GIT:**
 
 *criação do branch para a feature #9:*
 ```
