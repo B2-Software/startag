@@ -8,7 +8,7 @@
 
 *criação do branch para a feature #9:*
 ```
-$ git checkout -b feature/9 develop
+$ git checkout -b feat/9 develop
 ```
 *commit na feature #9:*
 ```
