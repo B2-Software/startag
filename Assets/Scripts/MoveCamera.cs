@@ -22,20 +22,20 @@ public class MoveCamera : MonoBehaviour
   {
     if (Input.mousePosition.y >= Screen.height * topBarrier)
     {
-      transform.Translate(Vector3.up * Time.deltaTime * scrollSpeed, Space.World);
+      transform.Translate(Vector3.forward * Time.deltaTime * scrollSpeed, Space.World);
     }
 
     if (Input.mousePosition.y <= Screen.height * botBarrier)
     {
-      transform.Translate(Vector3.down * Time.deltaTime * scrollSpeed, Space.World);
+      transform.Translate(Vector3.back * Time.deltaTime * scrollSpeed, Space.World);
     }
 
-    if (Input.mousePosition.x >= Screen.height * rightBarrier)
+    if (Input.mousePosition.x >= Screen.width * rightBarrier)
     {
       transform.Translate(Vector3.right * Time.deltaTime * scrollSpeed, Space.World);
     }
 
-    if (Input.mousePosition.x <= Screen.height * leftBarrier)
+    if (Input.mousePosition.x <= Screen.width * leftBarrier)
     {
       transform.Translate(Vector3.left * Time.deltaTime * scrollSpeed, Space.World);
     }
